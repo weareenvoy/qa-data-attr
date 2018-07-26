@@ -6,19 +6,20 @@ This document defines the values used for the `data-test` attribute for respecti
 ### Reference Organization
 Each attribute value will be listed under the web page or web page component where it would be visually rendered.
 
-[Home Page](https://github.com/weareenvoy/qa-data-attr#home-page)
+[General](https://github.com/weareenvoy/qa-data-attr#general)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Navigation](https://github.com/weareenvoy/qa-data-attr#navigation)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Sign Up Form](https://github.com/weareenvoy/qa-data-attr#sign-up-from)
 
 [Checkout Page](https://github.com/weareenvoy/qa-data-attr#checkout-page)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Billing Form](https://github.com/weareenvoy/qa-data-attr#billing-form)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Credit Card Form](https://github.com/weareenvoy/qa-data-attr#credit-card-form)
+<br>
 
-[General](https://github.com/weareenvoy/qa-data-attr#general)
-
-### Home Page
+### General
 
 #### Navigation
 
@@ -27,7 +28,13 @@ Element          | Data attribute
 Navigation logo | data-test="navLogo"
 Login button | data-test="btnLogin"
 
+#### Sign Up Form
 
+Element          | Data attribute  
+---------------- | ----------------
+Email signup form input | data-test="formInputSignup"
+Email signup form submit button | data-test="formBtnSignup"
+<br>
 
 ### Checkout Page
 
@@ -48,10 +55,4 @@ CC number input | data-test="checkoutInputCC"
 Exp month dropdown | data-test="checkoutSelectExpMonth"
 Exp year dropdown | data-test="checkoutSelectExpYr"
 CC security code | data-test="checkoutInputCSV"
-
-### General
-
-Element          | Data attribute  
----------------- | ----------------
-Email signup form input | data-test="formInputSignup"
-Email signup form submit button | data-test="formBtnSignup"
+<br>

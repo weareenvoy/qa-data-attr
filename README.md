@@ -26,7 +26,15 @@ Each attribute value will be listed under the web page or web page component whe
 Element          | Data attribute  
 ---------------- | ----------------
 Navigation logo | data-test="navLogo"
-Login button | data-test="btnLogin"
+Login button | data-test="navLogin"
+Cart icon | data-test="navCart"
+
+#### Login From
+
+Element          | Data attribute  
+---------------- | ----------------
+Username input     | data-test="loginInputUsername"  
+Login submit       | data-test="loginBtnSubmit"
 
 #### Sign Up Form
 

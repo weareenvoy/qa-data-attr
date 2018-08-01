@@ -8,9 +8,15 @@ Each attribute value will be listed under the web page or web page component whe
 
 [General](https://github.com/weareenvoy/qa-data-attr#general)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[Header](https://github.com/weareenvoy/qa-data-attr#header)
+
 &nbsp;&nbsp;&nbsp;&nbsp;[Navigation](https://github.com/weareenvoy/qa-data-attr#navigation)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Sign Up Form](https://github.com/weareenvoy/qa-data-attr#sign-up-form)
+&nbsp;&nbsp;&nbsp;&nbsp;[Notification Sign Up Form](https://github.com/weareenvoy/qa-data-attr#sign-up-form)
+
+[Login Page](https://github.com/weareenvoy/qa-data-attr#login-page)
+
+[Create Account Page](https://github.com/weareenvoy/qa-data-attr#create-account-page)
 
 [Checkout Page](https://github.com/weareenvoy/qa-data-attr#checkout-page)
 
@@ -21,6 +27,12 @@ Each attribute value will be listed under the web page or web page component whe
 
 ### General
 
+#### Header
+Element          | Data attribute  
+---------------- | ----------------
+Announcement banner close     | data=test="announcementBannerClose"  
+
+
 #### Navigation
 
 Element          | Data attribute  
@@ -29,19 +41,34 @@ Navigation logo | data-test="navLogo"
 Login button | data-test="navLogin"
 Cart icon | data-test="navCart"
 
-#### Login From
-
-Element          | Data attribute  
----------------- | ----------------
-Username input     | data-test="loginInputUsername"  
-Login submit       | data-test="loginBtnSubmit"
-
-#### Sign Up Form
+#### Notification Sign Up Form
 
 Element          | Data attribute  
 ---------------- | ----------------
 Email signup form input | data-test="formInputSignup"
 Email signup form submit button | data-test="formBtnSignup"
+Footer email signup input | data-test="footerInputSignup"
+<br>
+
+### Login Page
+
+Element          | Data attribute  
+---------------- | ----------------
+Login username input     | data-test="loginInputUsername"
+Login password input     | data-test="loginInputPass"  
+Login submit | data-test="loginBtnSubmit"
+Create account button | data-test="createAccountLink"
+<br>
+
+### Create Account Page
+
+Element          | Data attribute  
+---------------- | ----------------
+Account firstname input | data-test="createAccountInputFirstname"
+Account lastname input | data-test="createAccountInputLastname"
+Account email input | data-test="createAccountInputEmail"
+Account password input | data-test="createAccountInputPass"
+Create submit       | data-test="createAccountBtnSubmit"
 <br>
 
 ### Checkout Page

@@ -12,7 +12,7 @@ Each attribute value will be listed under the web page or web page component whe
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Navigation](https://github.com/weareenvoy/qa-data-attr#navigation)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Notification Sign Up Form](https://github.com/weareenvoy/qa-data-attr#sign-up-form)
+&nbsp;&nbsp;&nbsp;&nbsp;[Notification Sign Up Form](https://github.com/weareenvoy/qa-data-attr#notification-sign-up-formsign-up-form)
 
 [Login Page](https://github.com/weareenvoy/qa-data-attr#login-page)
 

@@ -30,7 +30,7 @@ Each attribute value will be listed under the web page or web page component whe
 #### Header
 Element          | Data attribute  
 ---------------- | ----------------
-Announcement banner close     | data=test="announcementBannerClose"  
+Announcement banner close | data-test="announcementBannerClose"  
 
 
 #### Navigation
@@ -41,13 +41,18 @@ Navigation logo | data-test="navLogo"
 Login button | data-test="navLogin"
 Cart icon | data-test="navCart"
 
+#### Footer
+Element          | Data attribute  
+---------------- | ----------------
+Footer link contact us     | data-test="footerLinkContact"  
+Footer email signup input | data-test="footerInputSignup"
+
 #### Notification Sign Up Form
 
 Element          | Data attribute  
 ---------------- | ----------------
 Email signup form input | data-test="formInputSignup"
 Email signup form submit button | data-test="formBtnSignup"
-Footer email signup input | data-test="footerInputSignup"
 <br>
 
 ### Login Page

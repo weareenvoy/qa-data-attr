@@ -2,6 +2,8 @@
 ## Custom data attributes used in automated tests.
 This document defines the values used for the `data-test` attribute for respective HTML elements. This attribute will be used by automated tests to interact with page elements.
 
+To learn more about using the attributes view the [Usage](https://github.com/weareenvoy/qa-data-attr#usage) section below.
+
 
 ### Reference Organization
 Each attribute value will be listed under the web page or web page component where it would be visually rendered.
@@ -44,7 +46,8 @@ Cart icon | data-test="navCart"
 #### Footer
 Element          | Data attribute  
 ---------------- | ----------------
-Footer link contact us     | data-test="footerLinkContact"  
+Footer link contact us     | data-test="footerLinkContact"
+Footer link FAQ | data-test="footerLinkFAQ"
 Footer email signup input | data-test="footerInputSignup"
 
 #### Notification Sign Up Form
@@ -96,3 +99,22 @@ Exp month dropdown | data-test="checkoutSelectExpMonth"
 Exp year dropdown | data-test="checkoutSelectExpYr"
 CC security code | data-test="checkoutInputCSV"
 <br>
+
+
+## Usage
+The `data-test` attribute and values are used in attribute selectors to identify specific HTML elements. Specifically they will be used in CypressIO integration and end-to-end tests.
+
+One method of reusability within the CypressIO framework is to include the attribute selectors in a fixture data file with a property name and a corresponding value of it's respective attribute selector.
+
+In order to make the generation of this data fixture file simple, a utility program is included in this repository that will parse this README.md file and generate the corresponding .json file. The generated .json file can be included in any CypressIO project for use.
+
+For more information on CypressIO fixture files you may find the [documentation here](https://docs.cypress.io/api/commands/fixture.html#Syntax).
+
+### Generating the fixture json file
+To run the included utility and generate the .json file from this README.md, from the projects root directory, run:
+
+```
+npm run generate-json
+```
+
+The .json will be written to `output/selectors.json`

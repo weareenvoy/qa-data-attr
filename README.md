@@ -48,6 +48,8 @@ Element          | Data attribute
 ---------------- | ----------------
 Footer link contact us     | data-test="footerLinkContact"
 Footer link FAQ | data-test="footerLinkFAQ"
+Footer link Terms | data-test="footerLinkTerms"
+Footer link Privacy | data-test="footerLinkPrivacy"
 Footer email signup input | data-test="footerInputSignup"
 
 #### Notification Sign Up Form

@@ -41,7 +41,12 @@ Element          | Data attribute
 ---------------- | ----------------
 Navigation logo | data-test="navLogo"
 Login button | data-test="navLogin"
-Cart icon | data-test="navCart"
+Account link | data-test="navAccount"
+Cart | data-test="navCart"
+Cart icon | data-test="navCartIcon"
+Search link | data-test="navSearch"
+Support link | data-test="navSupport"
+Find a retailer link | data-test="navFindARetailer"
 
 #### Footer
 Element          | Data attribute  

@@ -12,6 +12,8 @@ Each attribute value will be listed under the web page or web page component whe
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Header](https://github.com/weareenvoy/qa-data-attr#header)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[Privacy Terms Policies Pages](https://github.com/weareenvoy/qa-data-attr#privacy-terms-policies-pages)
+
 &nbsp;&nbsp;&nbsp;&nbsp;[Navigation](https://github.com/weareenvoy/qa-data-attr#navigation)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Notification Sign Up Form](https://github.com/weareenvoy/qa-data-attr#notification-sign-up-formsign-up-form)
@@ -25,6 +27,8 @@ Each attribute value will be listed under the web page or web page component whe
 &nbsp;&nbsp;&nbsp;&nbsp;[Billing Form](https://github.com/weareenvoy/qa-data-attr#billing-form)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Credit Card Form](https://github.com/weareenvoy/qa-data-attr#credit-card-form)
+
+[Product Page](https://github.com/weareenvoy/qa-data-attr#product-page)
 <br>
 
 ### General
@@ -32,7 +36,15 @@ Each attribute value will be listed under the web page or web page component whe
 #### Header
 Element          | Data attribute  
 ---------------- | ----------------
-Announcement banner close | data-test="announcementBannerClose"  
+Announcement banner close | data-test="announcementBannerClose"
+
+#### Privacy Terms Policies Pages
+Element   | Data attribute  
+---------------- | ----------------
+Privacy terms copy container     | data-test="privacyPolicyCopy"
+Subscription terms copy container | data-test="subscriptionTermsCopy"
+Terms and conditions copy container | data-test="termsConditionsCopy"
+
 
 
 #### Navigation
@@ -86,6 +98,13 @@ Account password input | data-test="createAccountInputPass"
 Create submit       | data-test="createAccountBtnSubmit"
 <br>
 
+### Cart
+Element   | Data attribute  
+---------------- | ----------------
+Cart items container | data-test="cartItems"
+Checkout button     | data-test="cartBtnCheckout"  
+
+
 ### Checkout Page
 
 #### Billing Form
@@ -106,6 +125,11 @@ Exp month dropdown | data-test="checkoutSelectExpMonth"
 Exp year dropdown | data-test="checkoutSelectExpYr"
 CC security code | data-test="checkoutInputCSV"
 <br>
+
+### Product Page
+Element   | Data attribute  
+---------------- | ----------------
+Add to cart button     | data-test="productBtnAddToCart"  
 
 
 ## Usage

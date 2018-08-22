@@ -102,7 +102,8 @@ Create submit       | data-test="createAccountBtnSubmit"
 Element   | Data attribute  
 ---------------- | ----------------
 Cart items container | data-test="cartItems"
-Checkout button     | data-test="cartBtnCheckout"  
+Cart item row | data-test="cartRow"
+Checkout button     | data-test="cartBtnCheckout"
 
 
 ### Checkout Page

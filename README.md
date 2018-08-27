@@ -51,6 +51,7 @@ Terms and conditions copy container | data-test="termsConditionsCopy"
 
 Element          | Data attribute  
 ---------------- | ----------------
+Navigation menu items | data-test="navMenu"
 Navigation logo | data-test="navLogo"
 Login button | data-test="navLogin"
 Account link | data-test="navAccount"
